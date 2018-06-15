@@ -10,6 +10,8 @@ import registerCompany from '../components/registerCompany/registerCompany'
 import keepAccount from '../components/keepAccount/keepAccount'
 import TrademarkRegister from '../components/TrademarkRegister/TrademarkRegister'
 import businessChange from '../components/businessChange/businessChange'
+import TrademarkBand from '../components/TrademarkBand/TrademarkBand'
+import payment from '../components/payment/payment'
 
 Vue.use(Router)
 
@@ -59,6 +61,16 @@ export default new Router({
   path: '/businessChange',
   name: 'businessChange',
   component: businessChange
+},
+{
+  path: '/TrademarkBand',
+  name: 'TrademarkBand',
+  component: TrademarkBand
+},
+{
+  path: '/payment',
+  name: 'payment',
+  component: payment
 },
   {
     path: '/address',

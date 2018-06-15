@@ -9,9 +9,9 @@
               <router-link to="./businessChange" class="tab"><img src="../../assets/images/index/companyChange.png" alt="" srcset=""> 工商变更</router-link>
            </div>
            <div  class="classifyNav2">
-              <router-link to="" class="tab"><img src="../../assets/images/index/tradeReal.png" alt="" srcset=""> 商标相关</router-link>
-              <router-link to="" class="tab"><img src="../../assets/images/index/panyment.png" alt="" srcset=""> 补差服务</router-link>
-              <router-link to="" class="tab"><img src="../../assets/images/index/classify.png" alt="" srcset=""> 全部分类</router-link>
+              <router-link to="./TrademarkBand" class="tab"><img src="../../assets/images/index/tradeReal.png" alt="" srcset=""> 商标相关</router-link>
+              <router-link to="./payment" class="tab"><img src="../../assets/images/index/panyment.png" alt="" srcset=""> 补差服务</router-link>
+              <router-link to="./classify" class="tab"><img src="../../assets/images/index/classify.png" alt="" srcset=""> 全部分类</router-link>
             
            </div>
           

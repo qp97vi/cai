@@ -65,5 +65,6 @@ div{
 }
 .footer{
   background: white;
+  font-size: 2.9vw;
 }
 </style>
