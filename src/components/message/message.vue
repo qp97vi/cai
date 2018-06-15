@@ -45,6 +45,7 @@ export default {
 <style scoped>
 .content{
     background: #F5F5F5;
+    height: 100%
 }
     .top{
         display: flex;
@@ -123,7 +124,7 @@ export default {
 
         justify-content: center;
         align-items: center;
-        width: 100%;
+        margin: 0 4.3vw;
         height: 11.7vw;
 
     }
