@@ -20,7 +20,7 @@
           
           <router-link tag="div" to="./address" class="address"  >
          
-     {{a}}
+     {{title}}
              <img src="../assets/images/index/arrow_d.png" alt="" srcset="">
          </router-link>
          
@@ -36,7 +36,7 @@
 
 import aa from './aa/aa'
 import footerNav from './footerNav.vue'
-
+import { mapState } from "vuex";
 export default {
   name: 'indexNav',
   props: {
@@ -57,8 +57,11 @@ export default {
   computed:{
     count () {
       return this.$store.state.test
-    }
+    },
+    ...mapState(["title"]),
   },
+
+ 
    components:{
     aa,
     footerNav
