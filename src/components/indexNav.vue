@@ -27,6 +27,96 @@
         </div>
     
         <aa></aa>
+        <div class="titleBox">
+          <div class="title">
+            <img src="../assets/images/index/title1.png" alt="" srcset="">
+            <ul>
+              <li><a> 代办公司注册多少钱，价格费用是多少？</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="commodityBox">
+				<ul>
+					<li class="li1" :style="li1">
+						<a >
+							<h5>公司名称核准</h5>
+							<p>免费核名</p>
+						</a>
+					</li>
+					<li class="li2" :style="li2">
+						<a >
+							<h5>商标查询</h5>
+							<p>与商标局数据同步</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+      <div class="bigTitleBox">
+				<h6>热门推荐</h6>
+				<div class="line1"></div>
+				<h6>一站式企业服务</h6>
+			</div>
+      <div class="ware">
+				<ul>
+					<li>
+						
+							<img src="../assets/images/index/caidada.png" alt="">
+							<div class="rightBox">
+								<h3 class="title">内资有限公司</h3>
+								<div class="title3">在线提交材料，助您快速实现创业梦</div>
+								<div class="price">0元起</div>
+							</div>
+					
+					</li>
+					<li>
+						<a >
+							<img src="../assets/images/index/caidada.png" alt="">
+							<div class="rightBox">
+								<h3 class="title">零申报企业（一年）</h3>
+								<div class="title3">降低招聘全职会计成本,有效防范财务风险</div>
+								<div class="price">999元起/年</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a >
+							<img src="../assets/images/index/caidada.png" alt="">
+							<div class="rightBox">
+								<h3 class="title">普通商标注册一个</h3>
+								<div class="title3">专人专办,24小时内申报,3个工作日内下...</div>
+								<div class="price">599元起</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a >
+							<img src="../assets/images/index/caidada.png" alt="">
+							<div class="rightBox">
+								<h3 class="title">外资公司变更</h3>
+								<div class="title3">全称线上服务，财大大为你高效解决问题</div>
+								<div class="price">500元起</div>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+      <div class="partner">
+				<h6>合作伙伴</h6>
+				<ul>
+					 <li></li>
+		               <li></li>
+		               <li></li>
+		               <li></li>
+		               <li></li>
+		               <li></li>
+		               <li></li>
+		               <li></li>
+		               <li></li>
+		               <li></li>
+		               <li></li>
+		               <li></li>
+				</ul>
+			</div>
         <footer-nav></footer-nav>
   </div>
  
@@ -151,5 +241,153 @@ export default {
 .router-link-active {
   color: #333333;
     text-decoration: none;
+}
+.titleBox{
+  -webkit-box-shadow: 0px 1vw 1.8vw #EEEEEE;
+  -moz-box-shadow: 0px 1vw 1.8vw #EEEEEE;
+  -ms-box-shadow: 0px 1vw 1.8vw #EEEEEE;
+  -o-box-shadow: 0px 1vw 1.8vw #EEEEEE;
+  box-shadow: 0px 1vw 1.8vw #EEEEEE;
+}
+.title{
+  display: flex;
+  margin-left: 10.1vw;
+  margin-top: 6.7vw;
+  padding-bottom: 5.1vw;
+  
+}
+.title img{
+  width: 16vw;
+  height: 4.5vw;
+}
+.title ul{
+  list-style: none;
+  font-size: 3.5vw;
+  color: #666;
+}
+.commodityBox{
+  margin-top: 3.6vw;
+}
+.commodityBox li{
+      float: left;
+    width: 44.8vw;
+    height: 21.3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.commodityBox ul{
+      overflow: hidden;
+    margin-left: 4.3vw;
+}
+.commodityBox .li1{
+  background:url(../assets/images/index/regCompany.png) no-repeat center center;
+  background-size: 44.8vw 21.3vw;
+    margin-right: 2.4vw;
+}
+.commodityBox .li2{
+  background:url(../assets/images/index/tradeSearch.png) no-repeat center center;
+      background-size: 44.8vw 21.3vw;
+}
+.bigTitleBox{
+      overflow: hidden;
+    margin-left: 4.3vw;
+    margin-top: 7.5vw;
+    display: flex;
+    align-items: center;
+}
+.bigTitleBox h6:nth-of-type(1){
+      font-size: 5.9vw;
+    font-weight: normal;
+}
+.bigTitleBox h6, .bigTitleBox .line1{
+  float: left;
+}
+.bigTitleBox .line1{
+      background: #999999;
+    font-size: 4.3vw;
+    width: 0.3vw;
+    height: 5.3vw;
+    margin-left: 1.3vw;
+    margin-right: 1.3vw;
+}
+.bigTitleBox h6:nth-of-type(2){
+      color: #999999;
+    font-size: 4.3vw;
+    font-weight: normal;
+}
+.ware{
+  margin-left: 4.3vw;
+    margin-top: 1.9vw;
+}
+.ware ul{
+  list-style: none;
+}
+.ware li{
+      overflow: hidden;
+    border-bottom: 0.2vw solid #eeeeee;
+    margin-right: 4.3vw;
+}
+.ware img{
+      width: 26.7vw;
+    height: 20vw;
+    float: left;
+    margin-bottom: 3.2vw;
+    margin-top: 3.2vw;
+}
+.ware .rightBox{
+      width: 62.3vw;
+    float: left;
+    margin-left: 2.4vw;
+}
+.ware .title{
+  display: inline-block;
+    width: 50.9vw;
+    height: 4vw;
+    line-height: 4vw;
+    color: #333333;
+    font-size: 4.3vw;
+    margin-top: 4.5vw;
+    font-weight: normal;
+    margin-left: 0;
+}
+.ware .title3{
+      font-size: 3.5vw;
+    color: #888888;
+    width: 62.5vw;
+    padding-top: 2.1vw;
+    letter-spacing: -0.1vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.ware .price{
+      color: #FF5252;
+    font-size: 3.7vw;
+    font-weight: normal;
+    margin-top: 4vw;
+    font-family: Arial;
+}
+.partner{
+      margin-left: 4.3vw;
+    margin-top: 7.5vw;
+    margin-right: 4.3vw;
+}
+.partner h6, .service h6{
+      color: #333333;
+    font-size: 5.9vw;
+    font-weight: normal;
+}
+.partner ul{
+  list-style: none;
+      margin-top: 4.8vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.partner li{
+      width: 22.1vw;
+    height: 9.6vw;
+    border: 0.2vw solid #eeeeee;
 }
 </style>
