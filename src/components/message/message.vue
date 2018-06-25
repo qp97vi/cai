@@ -36,6 +36,14 @@ import topNav from '../topNav/topNav.vue'
 import footerNav from '../../components/footerNav'
 export default {
     name:"message",
+    data(){
+        return{
+           li1:"li1",
+           li2:"li2",
+           li3:"li3",
+           li4:"li4"
+        }
+    },
     components:{
         topNav,
         footerNav

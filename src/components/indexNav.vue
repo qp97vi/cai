@@ -103,18 +103,18 @@
       <div class="partner">
 				<h6>合作伙伴</h6>
 				<ul>
-					 <li class="li1" :style="li1"></li>
-		               <li class="li2" :style="li2"></li>
-		               <li class="li3" :style="li3"></li>
-		               <li class="li4" :style="li4"></li>
-		               <li class="li5" :style="li5"></li>
-		               <li class="li6" :style="li6"></li>
-		               <li class="li7" :style="li7"></li>
-		               <li class="li8" :style="li8"></li>
-		               <li class="li9" :style="li9"></li>
-		               <li class="li10" :style="li10"></li>
-		               <li class="li11" :style="li11"></li>
-		               <li class="li12" :style="li12"></li>
+          <li class="li1" :style="li1"></li>
+          <li class="li2" :style="li2"></li>
+          <li class="li3" :style="li3"></li>
+          <li class="li4" :style="li4"></li>
+          <li class="li5" :style="li5"></li>
+          <li class="li6" :style="li6"></li>
+          <li class="li7" :style="li7"></li>
+          <li class="li8" :style="li8"></li>
+          <li class="li9" :style="li9"></li>
+          <li class="li10" :style="li10"></li>
+          <li class="li11" :style="li11"></li>
+          <li class="li12" :style="li12"></li>
 				</ul>
 			</div>
       <div class="service">
@@ -162,6 +162,18 @@ export default {
           autoplay:true
         },
       a:'',
+      li1:"li1",
+      li2:"li2",
+      li3:"li3",
+      li4:"li4",
+      li5:"li5",
+      li6:"li6",
+      li7:"li7",
+      li8:"li8",
+      li9:"li9",
+      li10:"li10",
+      li11:"li11",
+      li12:"li12"
       
     }
   },
