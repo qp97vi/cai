@@ -103,19 +103,40 @@
       <div class="partner">
 				<h6>合作伙伴</h6>
 				<ul>
-					 <li></li>
-		               <li></li>
-		               <li></li>
-		               <li></li>
-		               <li></li>
-		               <li></li>
-		               <li></li>
-		               <li></li>
-		               <li></li>
-		               <li></li>
-		               <li></li>
-		               <li></li>
+					 <li class="li1" :style="li1"></li>
+		               <li class="li2" :style="li2"></li>
+		               <li class="li3" :style="li3"></li>
+		               <li class="li4" :style="li4"></li>
+		               <li class="li5" :style="li5"></li>
+		               <li class="li6" :style="li6"></li>
+		               <li class="li7" :style="li7"></li>
+		               <li class="li8" :style="li8"></li>
+		               <li class="li9" :style="li9"></li>
+		               <li class="li10" :style="li10"></li>
+		               <li class="li11" :style="li11"></li>
+		               <li class="li12" :style="li12"></li>
 				</ul>
+			</div>
+      <div class="service">
+				<h6>服务承诺</h6>
+				<ul class="serviceBox">
+					<li>
+						<a href="javascript:void(0)"><img src="../assets/images/index/quality.png" alt="" srcset=""><span>品质保证</span></a>
+					</li>
+					<li>
+						<a href="javascript:void(0)"><img src="../assets/images/index/goldService.png" alt="" srcset=""><span>金牌服务</span></a>
+					</li>
+					<li>
+						<a href="javascript:void(0)"><img src="../assets/images/index/privacy.png" alt="" srcset=""><span>信息保密</span></a>
+					</li>
+					<li>
+						<a href="javascript:void(0)"><img src="../assets/images/index/afterSale.png" alt="" srcset=""><span>售后无忧</span></a>
+					</li>
+				</ul>
+			</div>
+      <div class="logoBox">
+				<img src="../assets/images/index/logo.png" alt="">
+						<p>闽ICP备15017480号</p>
 			</div>
         <footer-nav></footer-nav>
   </div>
@@ -389,5 +410,127 @@ export default {
       width: 22.1vw;
     height: 9.6vw;
     border: 0.2vw solid #eeeeee;
+     
+}
+.partner .li1{
+  border-right: 0;
+    border-bottom: 0;
+    background: url(../assets/images/index/logo_03.png) no-repeat center center;
+    background-size: 20.2vw 7.7vw;
+}
+.partner .li2{
+  border-right: 0;
+   border-right: 0;
+    border-bottom: 0;
+    background: url(../assets/images/index/logo_05.png) no-repeat center center;
+   background-size: 20.2vw 7.7vw;
+}
+.partner .li3{
+      border-right: 0;
+    border-bottom: 0;
+    background: url(../assets/images/index/logo_07.png) no-repeat center center;
+    background-size: 20.2vw 7.7vw;
+}
+.partner .li4{
+      border-bottom: 0;
+    background: url(../assets/images/index/logo_09.png) no-repeat center center;
+    background-size: 20.2vw 7.7vw;
+}
+.partner .li5{
+  border-right: 0;
+    border-bottom: 0;
+    background: url(../assets/images/index/logo_15.png) no-repeat center center;
+    background-size: 20.2vw 7.7vw;
+}
+.partner .li6{
+  border-right: 0;
+    border-bottom: 0;
+    background: url(../assets/images/index/logo_17.png) no-repeat center center;
+    background-size: 20.2vw 7.7vw;
+}
+.partner .li7{
+      border-right: 0;
+    border-bottom: 0;
+    background: url(../assets/images/index/logo_26.png) no-repeat center center;
+    background-size: 20.2vw 7.7vw;
+}
+.partner .li8{
+      border-bottom: 0;
+    background: url(../assets/images/index/logo_20.png) no-repeat center center;
+    background-size: 20.2vw 7.7vw;
+}
+.partner .li9{
+      border-right: 0;
+    background: url(../assets/images/index/logo_25.png) no-repeat center center;
+    background-size: 20.2vw 7.7vw;
+}
+.partner .li10{
+      border-right: 0;
+    background: url(../assets/images/index/logo_27.png) no-repeat center center;
+    background-size: 20.2vw 7.7vw;
+}
+.partner .li11{
+      border-right: 0;
+    background: url(../assets/images/index/logo_28.png) no-repeat center center;
+    background-size: 20.2vw 7.7vw;
+}
+.partner .li12{
+      background: url(../assets/images/index/logo_29.png) no-repeat center center;
+    background-size: 20.2vw 7.7vw;
+}
+.service{
+      margin-left: 4.3vw;
+    margin-top: 8vw;
+}
+.serviceBox{
+      overflow: hidden;
+    margin-top: 5.3vw;
+    margin-right: 9.7vw;
+    margin-left: 5.3vw;
+}
+.serviceBox{
+  list-style: none;
+}
+.serviceBox li{
+      float: left;
+}
+.serviceBox a{
+      display: inline-block;
+    width: 15.9vw;
+    text-align: center;
+}
+.serviceBox img{
+      width: 10.7vw;
+    height: 10.7vw;
+    margin-left: 0.8vw;
+}
+.serviceBox span{
+      display: inline-block;
+    width: 15.9vw;
+    font-size: 3.2vw;
+    color: #666666;
+}
+.serviceBox li:nth-of-type(2){
+      margin-left: 5.7vw;
+    margin-right: 5.7vw;
+}
+.serviceBox li:nth-of-type(3){
+      margin-right: 5.7vw;
+}
+.logoBox{
+      text-align: center;
+    margin-top: 8vw;
+    margin-bottom: 13vw;
+}
+.logoBox img{
+      width: 15.5vw;
+    height: 6.9vw;
+    display: inline-block;
+}
+.logoBox p{
+  color: #666666;
+    font-size: 3.2vw;
+    margin-top: 1.9vw;
+    margin-bottom: 3.5vw;
 }
 </style>
