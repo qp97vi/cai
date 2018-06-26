@@ -37,6 +37,7 @@ div{
   position: fixed;
   bottom: 0;
   left: 0;
+  height: 13.1vw;
   box-shadow: 0 -1vw 1.3vw #EEEEEE;
   flex-shrink: 0;
 }
@@ -47,6 +48,7 @@ div{
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 15.1vw;
   /* background: url(../assets/images/index/home_click.png) no-repeat center top;
   background-size: 5.9vw 5.9vw; */
 }

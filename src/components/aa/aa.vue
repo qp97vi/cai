@@ -12,7 +12,7 @@
               <router-link to="./TrademarkBand" class="tab"><img src="../../assets/images/index/tradeReal.png" alt="" srcset=""> 商标相关</router-link>
               <router-link to="./payment" class="tab"><img src="../../assets/images/index/panyment.png" alt="" srcset=""> 补差服务</router-link>
               <router-link to="./classify" class="tab"><img src="../../assets/images/index/classify.png" alt="" srcset=""> 全部分类</router-link>
-            
+               <router-link to="./classify" class="tab" ></router-link>
            </div>
           
             
@@ -33,19 +33,29 @@ export default {
 <style scoped>
 .classifyNav1,.classifyNav2{
   padding-left:  9.9vw;
+  padding-right: 9.9vw;
  font-size: 3.2vw;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-between;
+}
+.classifyNav1{
+  justify-content: space-between;
 }
 .classifyNav1 .tab,.classifyNav2 .tab{
   color: #333333;
-  margin-right: 9.1vw;
+  /* margin-left:6.8vw; */
   text-decoration: none;
+  width: 15.9vw;
 }
+.classifyNav2 .tab:nth-last-of-type(1){
+  
+}
+
 .classifyNav1 img,.classifyNav2 img{
   width: 12vw;
   height: 12vw;
+  margin-bottom: 2.1vw;
 }
 .classifyNav2,.classifyNav1{
   margin-top: 5.3vw;

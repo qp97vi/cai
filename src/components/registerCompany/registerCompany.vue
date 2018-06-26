@@ -10,7 +10,7 @@
                 <span class="price">￥</span>
                 <span class="price" id="zcgsPrice">0</span>
                 <div class="delBox">
-                    <div class="tips">
+                    <div class="tips" :style="tips">
                          6月促销活动
                     </div>
                     <del id="zcgsOldPrice">500</del>
@@ -25,6 +25,11 @@
 import commonBar from "../commonBar/commonBar"
 export default {
     name:"registerCompany",
+    data(){
+        return{
+            tips:"tips"
+        }
+    },
     components:{
         commonBar
     }
@@ -73,8 +78,8 @@ export default {
     line-height: 4.3vw;
     font-size: 2.7vw;
     margin-top: 0;
-    /* background: url(../../images/product/sales.png) no-repeat center center;
-    background-size: 19.1vw 4.3vw; */
+    background: url(../../assets/images/datail/sales.png) no-repeat center center;
+    background-size: 19.1vw 4.3vw;
     font-family: "PingFang";
     }
     .wares del{
